@@ -83,11 +83,11 @@ public class Main {
         // stat.setTemperatureCelsius(25.0);
         // System.out.println("Temp after valid change: " +
         // stat.getTemperatureCelsius());
-        User user = new User("123456789");
-        user.getPassword();
-        user.setPassword("pass");
-        user.getPassword();
-        user.setPassword("secure_password_123");
-        user.getPassword();
+        // User user = new User("123456789");
+        // user.getPassword();
+        // user.setPassword("pass");
+        // user.getPassword();
+        // user.setPassword("secure_password_123");
+        // user.getPassword();
     }
 }
