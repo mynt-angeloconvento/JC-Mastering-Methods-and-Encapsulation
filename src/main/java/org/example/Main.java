@@ -46,8 +46,19 @@ public class Main {
         // System.out.println("App Name: " + Utility.getAppName());
         // Utility utilInstance = new Utility();
         // System.out.println("Instance ID: " + utilInstance.getInstanceId());
+        // double celsius = 25.0;
+        // double fahrenheit = Converter.celsiusToFahrenheit(celsius);
+        // System.out.println(celsius + " degrees C is " + fahrenheit + " degrees F.");
+
+        // Display d = new Display();
+        // d.show(42);
+        // d.show("Hello");
+        // d.show("Goodbye", 3);
         double celsius = 25.0;
         double fahrenheit = Converter.celsiusToFahrenheit(celsius);
         System.out.println(celsius + " degrees C is " + fahrenheit + " degrees F.");
+        double fahrenheit1 = 77.0;
+        double celsius1 = Converter.fahrenheitToCelsius(fahrenheit1);
+        System.out.println(fahrenheit1 + " degrees F is " + celsius + " degrees C.");
     }
 }
