@@ -68,11 +68,26 @@ public class Main {
         // pizza2.display();
         // Pizza pizza3 = new Pizza("Mushroom and Onion", 16);
         // pizza3.display();
-        Computer computer1 = new Computer();
-        System.out.println("Computer 1: " + computer1.display());
-        Computer computer2 = new Computer("Dell");
-        System.out.println("Computer 2: " + computer2.display());
-        Computer computer3 = new Computer("Apple", 16);
-        System.out.println("Computer 3: " + computer3.display());
+        // Computer computer1 = new Computer();
+        // System.out.println("Computer 1: " + computer1.display());
+        // Computer computer2 = new Computer("Dell");
+        // System.out.println("Computer 2: " + computer2.display());
+        // Computer computer3 = new Computer("Apple", 16);
+        // System.out.println("Computer 3: " + computer3.display());
+
+        // Thermostat stat = new Thermostat(22.5);
+        // System.out.println("Initial temp: " + stat.getTemperatureCelsius());
+        // stat.setTemperatureCelsius(5.0);
+        // System.out.println("Temp after invalid change: " +
+        // stat.getTemperatureCelsius());
+        // stat.setTemperatureCelsius(25.0);
+        // System.out.println("Temp after valid change: " +
+        // stat.getTemperatureCelsius());
+        User user = new User("123456789");
+        user.getPassword();
+        user.setPassword("pass");
+        user.getPassword();
+        user.setPassword("secure_password_123");
+        user.getPassword();
     }
 }

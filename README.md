@@ -31,3 +31,7 @@
 #### Exercise 7
 
 ![alt text](image-6.png)
+
+#### Exercise 8
+
+![alt text](image-7.png)
