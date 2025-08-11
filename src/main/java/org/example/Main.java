@@ -36,11 +36,18 @@ public class Main {
 
         // Account myAccount = new Account();
         // myAccount.displayAccountDetails();
-        SmartDoor smartDoor = new SmartDoor();
-        System.out.println("Is the door locked? " + smartDoor.isLocked());
-        smartDoor.lockDoor();
-        System.out.println("Is the door locked? " + smartDoor.isLocked());
-        smartDoor.unlockDoor();
-        System.out.println("Is the door locked? " + smartDoor.isLocked());
+        // SmartDoor smartDoor = new SmartDoor();
+        // System.out.println("Is the door locked? " + smartDoor.isLocked());
+        // smartDoor.lockDoor();
+        // System.out.println("Is the door locked? " + smartDoor.isLocked());
+        // smartDoor.unlockDoor();
+        // System.out.println("Is the door locked? " + smartDoor.isLocked());
+
+        // System.out.println("App Name: " + Utility.getAppName());
+        // Utility utilInstance = new Utility();
+        // System.out.println("Instance ID: " + utilInstance.getInstanceId());
+        double celsius = 25.0;
+        double fahrenheit = Converter.celsiusToFahrenheit(celsius);
+        System.out.println(celsius + " degrees C is " + fahrenheit + " degrees F.");
     }
 }
