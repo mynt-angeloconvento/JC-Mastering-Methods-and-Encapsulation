@@ -54,11 +54,25 @@ public class Main {
         // d.show(42);
         // d.show("Hello");
         // d.show("Goodbye", 3);
-        double celsius = 25.0;
-        double fahrenheit = Converter.celsiusToFahrenheit(celsius);
-        System.out.println(celsius + " degrees C is " + fahrenheit + " degrees F.");
-        double fahrenheit1 = 77.0;
-        double celsius1 = Converter.fahrenheitToCelsius(fahrenheit1);
-        System.out.println(fahrenheit1 + " degrees F is " + celsius1 + " degrees C.");
+        // double celsius = 25.0;
+        // double fahrenheit = Converter.celsiusToFahrenheit(celsius);
+        // System.out.println(celsius + " degrees C is " + fahrenheit + " degrees F.");
+        // double fahrenheit1 = 77.0;
+        // double celsius1 = Converter.fahrenheitToCelsius(fahrenheit1);
+        // System.out.println(fahrenheit1 + " degrees F is " + celsius1 + " degrees
+        // C.");
+
+        // Pizza pizza1 = new Pizza();
+        // pizza1.display();
+        // Pizza pizza2 = new Pizza("Pepperoni");
+        // pizza2.display();
+        // Pizza pizza3 = new Pizza("Mushroom and Onion", 16);
+        // pizza3.display();
+        Computer computer1 = new Computer();
+        System.out.println("Computer 1: " + computer1.display());
+        Computer computer2 = new Computer("Dell");
+        System.out.println("Computer 2: " + computer2.display());
+        Computer computer3 = new Computer("Apple", 16);
+        System.out.println("Computer 3: " + computer3.display());
     }
 }
