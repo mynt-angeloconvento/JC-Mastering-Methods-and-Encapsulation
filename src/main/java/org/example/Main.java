@@ -59,6 +59,6 @@ public class Main {
         System.out.println(celsius + " degrees C is " + fahrenheit + " degrees F.");
         double fahrenheit1 = 77.0;
         double celsius1 = Converter.fahrenheitToCelsius(fahrenheit1);
-        System.out.println(fahrenheit1 + " degrees F is " + celsius + " degrees C.");
+        System.out.println(fahrenheit1 + " degrees F is " + celsius1 + " degrees C.");
     }
 }
